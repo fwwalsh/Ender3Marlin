@@ -1102,10 +1102,9 @@
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 
- #define X_MIN_POS -35 ; move the head 35 mm to the right to place the 
-                       ; nozzle at X = 0
- #define Y_MIN_POS -8  ; move the head 8 mm to the back (or the plate
-                       ; forward) to place the nozzle at Y = 0
+ #define X_MIN_POS -9 
+ #define Y_MIN_POS -14  
+
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
